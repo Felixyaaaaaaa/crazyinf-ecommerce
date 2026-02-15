@@ -1,0 +1,245 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F7F7;
+}
+
+.sidebar-btn {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    background-color: #112D4E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.offcanvas {
+    background-color: #112D4E;
+}
+
+.list-group-item {
+    background-color: #112D4E;
+    border: none;
+}
+
+.list-group-item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cart-btn {
+    position: fixed;
+    top: 30px;
+    right: 0px;
+    background-color: #112D4E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.containerCarousel{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: -50px;
+}
+
+.carousel-control-next {
+    right: -50px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 30px; 
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #3F72AF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3F72AF;
+}
+
+.navbar-nav .nav-link.active {
+    color: black; 
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.navbar-produk {
+    background-color: #F9F7F7; /* Warna latar belakang */
+    padding: 15px 0;
+}
+
+.container-nav-produk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-produk {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.produk-item {
+    position: relative;
+}
+
+.produk-link {
+    font-size: 22px; 
+    font-weight: 600;
+    color: #112D4E;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.produk-link:hover {
+    color: #3F72AF;
+}
+
+
+.produk-link:hover::after {
+    width: 100%;
+}
+
+.separator {
+    font-size: 22px; /* Sesuaikan dengan ukuran teks */
+    font-weight: bold;
+    color: #112D4E;
+    display: flex;
+    align-items: center;
+}
+
+#product-list{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.product{
+    margin: 10px 10px 40px 15px;
+}
+
+
+.btn-detail {
+    color: black;
+    font-weight: bold;
+    padding: 5px 80px;
+    border-color: black;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn-detail:hover {
+    background: linear-gradient(45deg, #ffffff, #d2d2d2); 
+    transform: scale(1.05);
+}
+
+.btn-detail:active {
+    transform: scale(0.95);
+}
+
+
+.btn_icon{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.cart{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.image-grid img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+.product-img-container {
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.1s ease-in-out;
+}
+
+
+.btn-keranjang-detail {
+    background: linear-gradient(45deg, #4CAF50, #2E7D32); 
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 208px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-keranjang-detail:hover {
+    background: linear-gradient(45deg, #2E7D32, #1B5E20); 
+    transform: scale(1.05);
+}
+
+.btn-keranjang-detail:active {
+    transform: scale(0.95);
+}
+
